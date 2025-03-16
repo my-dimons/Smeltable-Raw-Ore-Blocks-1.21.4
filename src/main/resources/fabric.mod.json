@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/my-dimons/Smeltable-Raw-Ore-Blocks-1.21.4"
 	},
 	"license": "MIT",
 	"icon": "assets/smeltableraworeblocks/icon.png",
