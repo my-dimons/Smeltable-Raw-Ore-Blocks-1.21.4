@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "smeltableraworeblocks",
+	"version": "${version}",
+	"name": "Smeltable Raw Ore Blocks",
+	"description": "Allows blocks like 'Block of raw iron' to be smelted into their smelted ore block counterpart, for example 'Block of iron'",
+	"authors": [
+		"mydimons"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/smeltableraworeblocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mydimons.smeltableraworeblocks.SmeltableRawOreBlocks"
+		],
+		"fabric-datagen": [
+			"net.mydimons.smeltableraworeblocks.SmeltableRawOreBlocksDataGenerator"
+		],
+		"client": [
+			"net.mydimons.smeltableraworeblocks.SmeltableRawOreBlocksClient"
+		]
+	},
+	"mixins": [
+		"smeltableraworeblocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
